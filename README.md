@@ -44,14 +44,16 @@ CREATE TABLE products (
 
 Clone this repository:
 
-```git clone https://github.com/your-username/honojs-crud-example.git
+```
+git clone https://github.com/your-username/honojs-crud-example.git
 cd honojs-crud-example
 
 ```
 
 Configure your database connection in db/client.ts:
 
-```export const client = await new Client().connect({
+```
+export const client = await new Client().connect({
   hostname: "127.0.0.1",
   username: "root",
   password: "yourpassword",
@@ -61,13 +63,14 @@ Configure your database connection in db/client.ts:
 
 Run the project with Deno:
 
-```deno run --allow-net --allow-env --allow-read main.ts
-
+```
+deno run --allow-net --allow-env --allow-read main.ts
 ```
 
 The server will start at:
 
-```http://localhost:8000
+```
+http://localhost:8000
 
 ```
 
