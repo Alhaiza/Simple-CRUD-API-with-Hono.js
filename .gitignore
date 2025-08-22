@@ -1,0 +1,11 @@
+# Deno
+deno.lock
+
+# Environment
+.env
+
+# Node modules / jika pakai npm
+node_modules/
+
+# Cache & build (opsional)
+dist/
